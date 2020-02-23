@@ -5,8 +5,8 @@
 # All rights reserved - Do Not Redistribute
 #
 
-execute "apt-get update" do
-    command "apt-get update"
+execute "yum update" do
+    command "yum update"
 end
 
 package "apache2" do
